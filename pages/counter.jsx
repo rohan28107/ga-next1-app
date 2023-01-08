@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const counter = () => {
+const Counter = () => {
+    const [ count, setCount ] = useState(0);
   return (
-    <div>counter</div>
+    <div>counter {count}</div>
   )
 }
 
-export default counter
+export default Counter
