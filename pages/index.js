@@ -42,6 +42,7 @@ export default function Home({ repos }) {
                     // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
                     <Box key={repo.id} style={{ boxShadow:'0px 7px 29px 0px', alignItems:'center' }}>
                       <Image src={repo.owner.avatar_url} alt={repo.name} width={100} height={100}/>
+                      {/*  */}
                       <Heading as='h3'>{repo.full_name}</Heading>
                       <Heading as='h4'>{repo.name}</Heading>
                       <Box>
